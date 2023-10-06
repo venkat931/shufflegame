@@ -1,0 +1,24 @@
+from random import shuffle
+def shuffle_list(my_list):#shuffle the list
+    shuffle(my_list)
+    return my_list
+def player_guess():#define the user guess of a number
+    guess=" "
+    while guess not in ["0","1","2"]:
+        guess=input("enter a number 0,1 or 2 and your number is :")
+    return int(guess)
+def check_guess(my_list,guess):#check with player guess with suffle number
+    if my_list[guess]=="O":
+        print("correct")
+        print(my_list)
+    else:
+        print("wrong")
+        print(my_list)
+
+my_list=[" ","O"," "]
+mixed=shuffle_list(my_list)
+print(mixed)
+playing=player_guess()
+print(playing)
+check=check_guess(mixed,playing)
+print(check)
