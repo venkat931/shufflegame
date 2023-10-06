@@ -1,2 +1,2 @@
 # shufflegame
-it is basic project to find the shuffle name
+A basic shuffle and guess game in Python is a simple text-based game where the computer shuffles a list of items (e.g., numbers, colors, or words) and the player must guess the correct order. The player provides their guess, and the computer checks if it matches the shuffled order. The game continues until the player guesses correctly or decides to quit. It's a fun and interactive way to practice programming logic and randomization in Python.
